@@ -1,0 +1,117 @@
+body {
+    animation:clip 1.5s ease-out;
+}
+@keyframes clip {
+
+    0%{
+        background-color:black;
+        transform:scale(1.-1);
+    }
+    100%{
+        transform: scale(2.-1);
+    }
+}
+
+
+.navbar .wadah .wadah2:hover .index {
+    display:inline-block;   
+    width:150px;
+    border-radius:40px;
+    height:47px;
+    background-color:#ffb400;
+}
+.navbar .wadah .wadah2:hover .about {
+    display:inline-block;   
+    width:150px;
+    border-radius:40px;
+    height:47px;
+    background-color:#ffb400;
+}
+.navbar .wadah .wadah2:hover .work {
+    display:inline-block;   
+    width:150px;
+    border-radius:40px;
+    height:47px;
+    background-color:#ffb400;
+}
+.navbar .wadah .wadah2:hover .contact {
+    display:inline-block;   
+    width:150px;
+    border-radius:40px;
+    height:47px;
+    background-color:#ffb400;
+}
+
+.navbar-set .wadah-set .wadah2-set:hover .index {
+    display:inline-block;   
+    width:150px;
+    border-radius:40px;
+    height:47px;
+    background-color:#ffb400;
+}
+.navbar-set .wadah-set .wadah2-set:hover .about {
+    display:inline-block;   
+    width:150px;
+    border-radius:40px;
+    height:47px;
+    background-color:#ffb400;
+}
+.navbar-set .wadah-set .wadah2-set:hover .work {
+    display:inline-block;   
+    width:150px;
+    border-radius:40px;
+    height:47px;
+    background-color:#ffb400;
+}
+.navbar-set .wadah-set .wadah2-set:hover .contact {
+    display:inline-block;   
+    width:150px;
+    border-radius:40px;
+    height:47px;
+    background-color:#ffb400;
+}
+button:hover .span-nav {
+    width:155px;
+}
+button:hover .span-set-nav {
+    width:175px;
+}
+button:hover .bulet-set-nav {
+    background-color: #ffb400;
+}
+button:hover .bulet-nav {
+    background-color: #ffb400;
+}
+button:hover span {
+    width: 100%;
+}
+.card:hover {
+    flex: 3;
+  }
+.card:hover img{
+    filter: none;
+ }
+ @keyframes a {
+    0% {
+        transform: rotate(0deg);
+    }
+    0% {
+        transform: rotate(360deg);
+    }
+}
+.www:hover {
+    border-radius:10px;
+    transform: scale(1.1);
+}
+.www2:hover {
+    border-radius:10px;
+    transform: scale(1.1);
+}
+.www3:hover {
+    border-radius:10px;
+    transform: scale(1.1);
+}
+.www4:hover {
+    border-radius:10px;
+    transform: scale(1.1);
+}

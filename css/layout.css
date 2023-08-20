@@ -1,0 +1,1015 @@
+
+/* ==================================================================== CSS LAYOUT ================================================================== */
+
+
+
+/* ===================================================================== CLASS UNIVERSAL ================================================================== */
+
+body {
+    background-color:#121212;
+    font: 45px/25px 'Poppins-Light','arial',Sans-serif;
+    position:relative;
+    color: #fff;
+}
+.container {
+    margin:20px 20px 20px 20px;
+}
+.navbar {
+    display:flex;
+    width:50px;
+    height:285px;
+    position: absolute;
+    flex-direction:row-reverse;
+    box-sizing: border-box;
+    margin:90px 0 0 82%;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+.navbar .wadah .wadah2 {
+    margin-left:20px;
+    margin-top:-30px ;
+}
+.navbar .wadah .wadah2 a {
+    display:inline-block;
+    width:47px;
+    border-radius:50%;
+    height:47px;
+    background-color:#323232;
+    transition: 0.1s ease-in;
+    overflow: hidden;
+}
+.navbar .wadah .wadah2 a i p {
+    font-family:'Poppins-Black';
+    margin-top:-45px;
+    margin-left:40px;
+}
+button {
+    position:absolute;
+    width:215px;
+    height:50px;
+    box-sizing: border-box;
+    text-align: center;
+    margin:-45px 0 0 41%;
+    font-weight: bold;
+    border: 2px solid #ffb400;
+    background: transparent;
+    cursor: pointer;
+    color:#fff;
+    border-radius:40px;
+    overflow: hidden;
+    text-transform:uppercase;
+  }
+.bulet {
+    position:absolute;
+    height:52px;
+    width:52px;
+    border-radius:50%;
+    margin:-25px 0 0 156px;
+    z-index:1;
+    background-color:#ffb400;
+}
+span {
+    background:#ffb400;
+    height:100%;
+    width:0;
+    position:absolute;
+    right:0;
+    bottom: 0;
+    transition: 0.5s;
+  }
+h2 {
+    margin-left:20px;
+    margin-top:-11px;
+    position: absolute;
+    font-size:15px;
+    font-family:'Poppins-Bold';
+    font-family:'Poppins-SemiBold','Sans-serif';
+}
+
+.navbar-2{
+    width:50px;
+    height:285px;
+    position: absolute;
+    box-sizing: border-box;
+    margin:-250px 0 0 82%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.bungkus-nav {
+    position:absolute;
+    width:210px;
+    height:50px;
+    box-sizing: border-box;
+    text-align: center;
+    margin:455px 0 0 5%;
+    font-weight: bold;
+    border: 2px solid #ffb400;
+    background: transparent;
+    cursor: pointer;
+    color:#fff;
+    border: none;
+    border-radius:40px;
+    overflow: hidden;
+    text-transform:uppercase;
+  }
+.bulet-nav {
+    position:absolute;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    margin:-25px 0 0 157px;
+    background-color:#323232;
+    transition:95ms ease-out;
+}
+.span-nav {
+    background:#ffb400;
+    height:100%;
+    width:0;
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index: -1;
+    border-radius:40px;
+    overflow: hidden;
+    transition:95ms ease-out;
+  }
+.h2-nav {
+    margin-left:40px;
+    margin-top:14px;
+    font-size:18px;
+    position: absolute;
+    font-family:'Poppins-Bold';
+    font-family:'Poppins-Black','Sans-serif';
+}
+
+.bungkus-set-nav {
+    position:absolute;
+    width:210px;
+    height:50px;
+    box-sizing: border-box;
+    text-align: center;
+    margin:455px 0 0 5%;
+    font-weight: bold;
+    border: 2px solid #ffb400;
+    background: transparent;
+    cursor: pointer;
+    color:#fff;
+    border: none;
+    border-radius:40px;
+    overflow: hidden;
+    text-transform:uppercase;
+  }
+.bulet-set-nav {
+    position:absolute;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    margin:-25px 0 0 157px;
+    background-color:#323232;
+    transition:95ms ease-out;
+}
+.span-set-nav {
+    background:#ffb400;
+    height:100%;
+    width:0;
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index: -1;
+    border-radius:40px;
+    overflow: hidden;
+    transition:95ms ease-out;
+  }
+.h2-set-nav {
+    margin-left:19px;
+    margin-top:12px;
+    font-size:18px;
+    position: absolute;
+    font-family:'Poppins-Black','Sans-serif';
+}
+.index {
+    position: absolute;
+    margin-bottom:75px;
+    margin-top:-95px;
+}
+.about {
+    position: absolute;
+    margin-bottom:75px;
+    margin-top:-30px;
+}
+.work {
+    position: absolute;
+    margin-bottom:75px;
+    margin-top:35px;
+}
+.contact {
+    margin-top:100px;
+    position: absolute;
+}
+
+.judul {    
+    max-width:auto;
+    margin:85px 425px 0px;
+    position:absolute;
+    box-sizing: border-box;
+}
+.judul h1 {
+    color:#282828;
+    font-family:'Poppins-Bold','arial', 'Sans-serif';
+    font-size:112px;
+    margin-right:100px;
+    letter-spacing:5px;
+}
+.judul h2 {
+    color:#ffb400;
+    font-size:55px;
+    font-family:'Poppins-Black','arial', 'Sans-serif';
+    margin:-25px 0 0 85px;
+}
+
+/* ==================================================================== END CLASS UNIVERSAL ================================================================ */
+
+/* ===================================================================== SETTINGS CLASS UNIVERSAL ================================================================== */
+.navbar-set {
+    width:50px;
+    height:260px;
+    box-sizing: border-box;
+    margin:95px 0 0 82%;
+    position:absolute;
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: space-evenly;
+}
+.navbar-set .wadah-set .wadah2-set {
+    margin-left:20px;
+}
+.navbar-set .wadah-set .wadah2-set a {
+    display:inline-block;
+    width:47px;
+    border-radius:50%;
+    height:47px;
+    background-color:#323232;
+    overflow:hidden;
+    transition: 0.1s ease-in;
+}
+.navbar-set .wadah-set .wadah2-set a i p {
+    font-family:'Poppins-Black';
+    margin-top:-45px;
+    margin-left:40px;
+}
+.bungkus-set1 {
+    position:absolute;
+    width:210px;
+    height:50px;
+    box-sizing: border-box;
+    text-align: center;
+    margin:455px 0 0 5%;
+    font-weight: bold;
+    border: 2px solid #ffb400;
+    background: transparent;
+    cursor: pointer;
+    color:#fff;
+    border-radius:40px;
+    overflow: hidden;
+    text-transform:uppercase;
+  }
+.bulet-set1 {
+    position:absolute;
+    height:52px;
+    width:52px;
+    border-radius:50%;
+    margin:-25px 0 0 151px;
+    z-index:1;
+    background-color:#ffb400;
+}
+.span-set1 {
+    background:#ffb400;
+    height:100%;
+    width:0;
+    position:absolute;
+    right:0;
+    bottom: 0;
+    transition: 0.5s;
+  }
+.h2-set1 {
+    margin-left:25px;
+    margin-top:-10px;
+    font-size:15px;
+    position: absolute;
+    font-family:'Poppins-Bold';
+    font-family:'Poppins-SemiBold','Sans-serif';
+}
+
+.bungkus-set2 {
+    position:absolute;
+    width:210px;
+    height:50px;
+    box-sizing: border-box;
+    text-align: center;
+    margin:295px 0 0 0;
+    right:73%;
+    top:20%;
+    font-weight: bold;
+    border:2px solid #ffb400;
+    background: transparent;
+    cursor: pointer;
+    color:#fff;
+    border-radius:40px;
+    overflow: hidden;
+    text-transform:uppercase;
+  }
+.bulet-set2 {
+    position:absolute;
+    height:52px;
+    width:52px;
+    border-radius:50%;
+    margin:-25px 0 0 151px;
+    z-index:1;
+    background-color:#ffb400;
+}
+.span-set2 {
+    background:#ffb400;
+    height:100%;
+    width:0;
+    position:absolute;
+    right:0;
+    bottom: 0;
+    transition: 0.5s;
+  }
+.h2-set2 {
+    margin-left:25px;
+    margin-top:-10px;
+    position: absolute;
+    font-size:15px;
+    font-family:'Poppins-SemiBold','Sans-serif';
+}
+
+.bungkus-set3 {
+    position:absolute;
+    width:210px;
+    height:50px;
+    box-sizing: border-box;
+    text-align: center;
+    margin:495px -420px 0 0;
+    right:73%;
+    top:20%;
+    font-weight: bold;
+    border:2px solid #ffb400;
+    background: transparent;
+    cursor: pointer;
+    color:#fff;
+    border-radius:40px;
+    overflow: hidden;
+    text-transform:uppercase;
+  }
+.bulet-set3 {
+    position:absolute;
+    height:52px;
+    width:52px;
+    border-radius:50%;
+    margin:-25px 0 0 151px;
+    z-index:1;
+    background-color:#ffb400;
+}
+.span-set3 {
+    background:#ffb400;
+    height:100%;
+    width:0;
+    position:absolute;
+    right:0;
+    bottom: 0;
+    transition: 0.5s;
+  }
+.h2-set3 {
+    margin-left:10px;
+    margin-top:-9px;
+    position: absolute;
+    font-size:12px;
+    font-family:'Poppins-SemiBold','Sans-serif';
+}
+
+.judul-set {    
+    max-width:auto;
+    margin:85px 425px 0px;
+    position:absolute;
+    box-sizing: border-box;
+}
+.judul-set h1 {
+    color:#282828;
+    font-family:'Poppins-Bold','arial', 'Sans-serif';
+    font-size:114px;
+    margin-right:100px;
+    letter-spacing:5px;
+}
+.judul-set h2 {
+    color:#ffb400;
+    font-size:55px;
+    font-family:'Poppins-Black','arial', 'Sans-serif';
+    margin:-25px 0 0 20px;
+}
+
+.judul-set2 {    
+    max-width:auto;
+    margin:85px 425px 0px;
+    position:absolute;
+    box-sizing: border-box;
+}
+.judul-set2 .h1-set2 {
+    color:#282828;
+    font-family:'Poppins-Bold','arial', 'Sans-serif';
+    font-size:105px;
+    margin-right:105px;
+    letter-spacing:3px;
+}
+.judul-set2 .h2-set2 {
+    color:#ffb400;
+    font-size:50px;
+    font-family:'Poppins-Black','arial', 'Sans-serif';
+    margin:-25px 0 0 85px;
+}
+.index-set {
+    position: absolute;
+    margin-top:-60px;
+}
+.about-set {
+    position: absolute;
+    margin-top:5px;
+}
+.work-set {
+    position: absolute;
+    margin-top:70px;
+}
+.contact-set {
+    margin-top:135px;
+    position: absolute;
+}
+
+.index-set1 {
+    position: absolute;
+    margin-top:-60px;
+}
+.about-set1 {
+    position: absolute;
+    margin-top:5px;
+}
+.work-set1 {
+    position: absolute;
+    margin-top:70px;
+}
+.contact-set1 {
+    margin-top:135px;
+    position: absolute;
+}
+.h2-nav-set1 {
+    margin-left:18px;
+    margin-top:15px;
+    font-size:17px;
+    position: absolute;
+    font-family:'Poppins-Black','Sans-serif';
+}
+/* ===================================================================== END SETTINGS UNIVERSAL ================================================================== */
+
+/*============================================================================== index ============================================================================ */
+
+.foto {
+    margin:55px 15px 0 10px;
+    width:420px;
+    height:530px;
+    box-shadow:-2px 3px 10px rgb(165, 161, 161);
+    background-color:#323232;
+    border-radius:5%;
+    background-image:url("../profile/I.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#judul {
+    width:500px;
+    height:175px;
+    font-family:'Poppins-Bold','Poppins-SemiBold','Poppins-ExtraBold','Sans-serif';
+    margin:-412px 1px 1px 625px;
+    box-sizing:border-box;
+}
+#judul h1 {
+    color:#fff;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+#judul .pembuka {
+    color:#ffb400;
+}
+.text .p1 {
+    width:578px;
+    height:150px;
+    margin:-30px 0 0 555px;
+    font-size:15px;
+    color:#fff;
+}
+
+/*============================================================================== index ============================================================================ */
+
+/* ========================================================================== ABOUT ========================================================================================== */
+
+.judul {    
+    max-width:auto;
+    margin:85px 425px 0px;
+    position:absolute;
+    box-sizing: border-box;
+}
+.judul h1 {
+    color:#282828;
+    font-family:'Poppins-Bold','arial', 'Sans-serif';
+    font-size:112px;
+    margin-right:100px;
+    letter-spacing:5px;
+}
+.judul h2 {
+    color:#ffb400;
+    font-size:55px;
+    font-family:'Poppins-Black','arial', 'Sans-serif';
+    margin:-25px 0 0 85px;
+}
+.ket {
+    color:white;
+    max-width:auto;
+    margin-top:250px;
+    margin-left:67px;
+    position:absolute;
+}
+.ket h3 {
+    font-size:30px;
+    font-family:'Poppins-Bold','arial', 'Sans-serif';
+}
+.ket .a,.b,.c,.d {
+    font-size:15px;
+    color:#929292;
+    display:inline-block;
+    font-weight:bold;
+}
+.ket .a1,.b2,.c3,.d4 {
+    display:inline-block;
+    font-size:15px;
+    margin-left:2px;
+    font-weight:bold;
+    color:#fff;
+}
+.bungkus-box {
+    margin-top:15px;
+    margin-left:20px;
+}
+.box {
+    position: relative;
+    width:150px;
+    height:150px;
+    background: rgba(255, 255, 255,.5);
+    border-radius:50%;
+    overflow: hidden;
+}
+.box::before {
+    content: " ";
+    position: absolute;
+    inset:-30px 140px;
+    background: linear-gradient(315deg,#00ccff,#d400d4);
+    transition:0.5;
+    animation: a 4s linear infinite;
+}
+.box:hover::before {
+    inset: -3px 0px;
+}
+.box::after {
+    content: " ";
+    inset: 3px;
+    background:#121212;
+    border-radius:50%;
+    position: absolute;
+    z-index:1;
+}
+.www {
+ width:400px;
+ height:205px; 
+ border:2px solid #393939;
+ margin-left:400px;
+ margin-top:200px;
+ position: absolute;
+ transition:.4s ease-in-out;  
+}
+.skill {
+    position: absolute;
+    z-index:9999;
+    font-family:'Poppins-Thin','sans-serif';
+    color:#4dc6f2;
+    margin-left:120px;
+    margin-top:100px;
+    font-size:50px;
+}
+.persen{
+    margin-left:60px;
+    margin-top:50px;
+    font-size:50px;
+    font-family:'Poppins-Thin',sans-serif;
+    z-index:9999999;
+    color:#4dc6f2;
+}
+.www2 {
+    width:400px;
+    height:205px; 
+    border:2px solid #393939;
+    margin-left:810px;
+    margin-top:200px;
+    z-index: -999;
+    position: absolute;
+    transition:.4s ease-in-out;  
+}
+.skill2 {
+    position: absolute;
+    z-index:9999;
+    font-family:'Poppins-Thin','sans-serif';
+    color:#6efd6e;
+    margin-left:120px;
+    margin-top:100px;
+    font-size:50px;
+}
+.persen2 {
+    margin-left:60px;
+    margin-top:50px;
+    font-size:50px;
+    font-family:'Poppins-Thin',sans-serif;
+    z-index:9999999;
+    color:#6efd6e;
+}
+.www3 {
+    width:400px;
+    height:205px; 
+    border:2px solid #393939;
+    margin-left:810px;
+    margin-top:415px;
+    z-index: -999;
+    position: absolute;
+    transition:.4s ease-in-out;  
+}
+.skill3 {
+    position: absolute;
+    z-index:9999;
+    font-family:'Poppins-Thin','sans-serif';
+    color:#f3ff44;
+    margin-left:120px;
+    margin-top:100px;
+    font-size:50px;
+}
+.persen3 {
+    margin-left:60px;
+    margin-top:50px;
+    font-size:50px;
+    font-family:'Poppins-Thin',sans-serif;
+    z-index:9999999;
+    color:#f3ff44;
+}
+.www4 {
+    width:400px;
+    height:205px; 
+    border:2px solid #393939;
+    margin-left:400px;
+    margin-top:415px;
+    position: absolute;
+    transition:.4s ease-in-out;  
+}
+.skill4 {
+    position: absolute;
+    z-index:9999;
+    font-family:'Poppins-Thin','sans-serif';
+    color:#c000c6;
+    margin-left:120px;
+    margin-top:100px;
+    font-size:50px;
+}
+.persen4 {
+    margin-left:60px;
+    margin-top:50px;
+    font-size:50px;
+    font-family:'Poppins-Thin',sans-serif;
+    z-index:9999999;
+    color:#c000c6;
+}
+
+/*========================================================================= END ABOUT ======================================================================================== */
+
+/* ========================================================================== PORTOFOLIO ===================================================================================== */
+.tameng {
+position: absolute;
+margin-left: 250px;
+margin-top:-120px;  
+width:auto;
+height:auto;
+z-index: -99;
+}
+.wadah-kartu {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .kartu {
+    display: flex;
+    width: 75%;
+  }
+  .card {
+    height: 200px;
+    flex:1;
+    margin: 40% 0 0 0;
+    box-shadow: 0 0 50px #0002;
+    overflow: hidden;
+    border-radius: 4px;
+    transition: .3s;
+  }
+  .card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    filter: grayscale(1);
+  }
+
+/* ========================================================================== END PORTOFOLIO ================================================================================= */
+
+/* ========================================================================== CONTACT ========================================================================================== */
+
+.ket2 {
+    max-width:355px;
+    font-size:15px;
+    color: #959595;
+    margin:220px 0 0 4%;
+    position:absolute;
+    box-sizing:border-box;
+}
+p {
+    color:#fff;
+}
+.h3 {
+    font-family:'Poppins-SemiBold';
+    font-size:25px;
+    color:rgb(250, 250, 250);
+    margin-bottom:10px;
+}
+h4 {
+    font-size:17px;
+    color: #929292;
+    margin-bottom:3px;
+    float:right;
+}
+.h41 {
+    margin-right:70%;
+}
+.h42 {
+    margin-right:75%;
+}
+.h43 {
+    margin-right:67%;
+}
+.p1 {
+    margin-bottom:25px;
+}
+.p2 {
+    margin:-10px 0 20px 42px;
+}
+.p3 {
+    margin:-10px 0 20px 45px;
+}
+.p4 {
+    margin:-10px 0 20px 45px;
+}
+.pesan {
+
+    box-sizing: border-box;
+    width:845px;
+    margin-left:420px;
+    margin-top:210px;
+    position:absolute;
+}
+::placeholder {
+    font-family:'Poppins-Medium', sans-serif;
+    font-size:18px;
+    color:#595959;
+}
+input {
+    width:34%;
+    border-radius:40px;
+    padding:13px;
+    background-color:#323232;
+    font-size:15px;
+    border:none;
+    font-family:'Poppins-Light','sans-serif';
+    text-indent:15px;
+    color:#929292;
+}
+.nama {
+    margin-right:45px;
+}
+.email {
+    margin-bottom:20px;
+}
+.subject {
+    width:78%;
+    margin-bottom:20px;
+}
+textarea {
+    border-radius:25px;
+    padding:13px;
+    background-color:#323232;
+    font-weight:bold;
+    color:#929292;
+    font-size:15px;
+    text-indent:15px;
+    border:none;
+}
+
+
+
+
+/* ========================================================================== END CONTACT ========================================================================================== */
+
+/* ========================================================================== FONTS ========================================================================================== */
+
+@font-face {
+    font-family: 'Poppins-Black';
+    src: url('../fonts/webkit-poppins/Poppins-Black.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../fonts/webkit-poppins/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-BlackItalic';
+    src: url('../fonts/webkit-poppins/Poppins-BlackItalic.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url('../fonts/webkit-poppins/Poppins-ExtraBold.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraBoldItalic';
+    src: url('../fonts/webkit-poppins/Poppins-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-BoldItalic';
+    src: url('../fonts/webkit-poppins/Poppins-BoldItalic.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-Italic';
+    src: url('../fonts/webkit-poppins/Poppins-Italic.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-LightItalic';
+    src: url('../fonts/webkit-poppins/Poppins-LightItalic.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('../fonts/webkit-poppins/Poppins-Light.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../fonts/webkit-poppins/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraLightItalic';
+    src: url('../fonts/webkit-poppins/Poppins-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraLight';
+    src: url('../fonts/webkit-poppins/Poppins-ExtraLight.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBoldItalic';
+    src: url('../fonts/webkit-poppins/Poppins-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-Thin';
+    src: url('../fonts/webkit-poppins/Poppins-Thin.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('../fonts/webkit-poppins/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-ThinItalic';
+    src: url('../fonts/webkit-poppins/Poppins-ThinItalic.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-MediumItalic';
+    src: url('../fonts/webkit-poppins/Poppins-MediumItalic.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../fonts/webkit-poppins/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/webkit-poppins/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*========================================================================= END FONTS ======================================================================================== */
+
+/*========================================================================= CLEAR FIX ======================================================================================== */
+
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ .cf {
+     *zoom: 1;
+ }
+ 
+/*========================================================================= END CLEAR FIX =================================================================================== */ 
+
+/*========================================================================= END CSS LAYOUT =================================================================================== */

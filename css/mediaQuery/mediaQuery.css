@@ -1,0 +1,277 @@
+@media screen and (max-width:600px) {
+
+      .foto {
+        background-image: none;
+        opacity:0;
+      }
+      .bungkus-set1{
+        opacity:0;
+        background:none;
+      }
+      .bungkus-set2{
+        opacity:0;
+        background:none;
+      }
+      .bungkus-3{
+        opacity:0;
+        background:none;
+      }
+      .bungkus-4{
+        opacity:0;
+        background:none;
+      }
+      .bungkus-5{
+        opacity:0;
+        background:none;
+      }
+      .container {
+        background:none;
+        opacity:0;
+        z-index:-1111111111111;
+      }
+
+body {
+display: grid;
+place-items: center;
+height: 100vh;
+background: #000;
+display: grid;height: 100vh;padding: 10px;
+align-items: center;
+font-family: sans-serif;
+}
+.loader {
+font-size:1px;
+width:1em;
+height:1em;
+border-radius: 50%;
+background: #00ffff;
+background: linear-gradient(to right, #00ffff 10%, rgba(0, 255, 255, 0) 42%);
+position: relative;
+margin-left:-56%;
+margin-top:-80%;
+animation: load 1.2s infinite linear;
+transform: translateZ(0);
+}
+      
+.loader:before {
+        width: 50%;
+      
+        height: 50%;
+      
+        background: #00ffff;
+      
+        border-radius: 100% 0 0 0;
+      
+        position: absolute;
+      
+        top: 0;
+      
+        left: 0;
+      
+        content: "";
+}
+.loader:after {
+        background: #000;
+      
+        width: 75%;
+      
+        height: 75%;
+      
+        border-radius: 50%;
+      
+        content: "";
+      
+        margin: auto;
+      
+        position: absolute;
+      
+        top: 0;
+      
+        left: 0;
+      
+        bottom: 0;
+      
+        right: 0;
+}
+@keyframes load {
+        0% {
+          transform: rotate(0deg);
+        }
+      
+        100% {
+          transform: rotate(360deg);
+        }
+}
+      
+* {
+      
+margin: 0;
+padding: 0;
+      
+}
+
+.wadah-typing {
+    display: flex;
+    justify-content: center;
+    height:auto;
+    width:50%;
+    margin-right:55%;
+    margin-top:-25%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.typing {
+      overflow: hidden;
+      border-right: 0.15em solid crimson;
+      color: #00ffff;
+      font-size:15px;
+      letter-spacing: 2px;
+
+}
+.typong {
+  overflow: hidden;
+  border-right: 0.15em solid crimson;
+  color: #00ffff;
+  white-space: nowrap;
+  font-size:15px;
+  letter-spacing: 2px;
+}
+
+}
+      
+      
+      @media screen and (max-width:1349px) {
+
+    .foto {
+      background-image: none;
+      opacity:0;
+    }
+    .bungkus-set1{
+      opacity:0;
+      background:none;
+    }
+    .bungkus-set2{
+      opacity:0;
+      background:none;
+    }
+    .bungkus-3{
+      opacity:0;
+      background:none;
+    }
+    .bungkus-4{
+      opacity:0;
+      background:none;
+    }
+    .bungkus-5{
+      opacity:0;
+      background:none;
+    }
+    .container {
+      background:none;
+      opacity:0;
+    }
+
+  .loader {
+      font-size: 10px;
+      
+      width: 11em;
+    
+      height: 11em;
+    
+      border-radius: 50%;
+    
+      background: #00ffff;
+    
+      background: linear-gradient(to right, #00ffff 10%, rgba(0, 255, 255, 0) 42%);
+    
+      position: relative;
+    
+      animation: load 1.2s infinite linear;
+    
+      transform: translateZ(0);
+    }
+    
+    .loader:before {
+      width: 50%;
+    
+      height: 50%;
+    
+      background: #00ffff;
+    
+      border-radius: 100% 0 0 0;
+    
+      position: absolute;
+    
+      top: 0;
+    
+      left: 0;
+    
+      content: "";
+    }
+    
+    .loader:after {
+      background: #000;
+    
+      width: 75%;
+    
+      height: 75%;
+    
+      border-radius: 50%;
+    
+      content: "";
+    
+      margin: auto;
+    
+      position: absolute;
+    
+      top: 0;
+    
+      left: 0;
+    
+      bottom: 0;
+    
+      right: 0;
+    }
+    
+    @keyframes load {
+      0% {
+        transform: rotate(0deg);
+      }
+    
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    
+    /* Reset */
+    
+    * {
+    
+    margin: 0;
+    
+    padding: 0;
+    
+    }
+    
+
+}
+@media screen and (min-width:1350px) {
+    
+    .typing::before {
+
+        content: " ";
+        opacity:0;
+        background:none;
+    }
+
+    .typong::after {
+        opacity:0;
+        content: " ";
+        background:none;
+    }
+    .wadah-typing {
+        background:none;
+        opacity:0;
+    }
+    
+}
